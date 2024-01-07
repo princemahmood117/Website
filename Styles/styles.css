@@ -1,7 +1,7 @@
 /* shared content */
-* {
+/* * {
     margin: 0px;
-}
+} */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -122,6 +122,12 @@ nav a:hover {
 
 }
 
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
 .web{
     color: #FD6E0A;
     font-weight: bold;
@@ -142,4 +148,32 @@ nav a:hover {
     font-size: 18px;
     font-weight: 400;
 
+}
+
+.about-info-container{
+    margin-top: 30px ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about-info{
+   padding-right: 5px;
+    text-align: center;
+}
+
+.about-info-container .info-title{
+    color: #757575 ;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.about-info-container .info-des{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#what-i-do-des{
+    padding: 30px 150px;
 }
