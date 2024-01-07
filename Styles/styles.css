@@ -1,5 +1,7 @@
-/* shared font */
-
+/* shared content */
+*{
+    margin: 0px;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -26,13 +28,21 @@ nav{
 
 .btn-primary{
     border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
+    background-color: #FD6E0A;
+    border: 0px;
     font-size: 20px;
     color: white;
     font-weight: 700;
     padding: 15px 35px;
 
+}
+.btn-primary:hover{
+    cursor:pointer;
+    background-color: coral;
+    transition: 0.5s;
+    opacity: 50%;
+    
+    
 }
 
 nav > ul {
@@ -50,18 +60,47 @@ nav a{
     color: #474747;
 }
 
+nav a:hover{
+    background-color: aliceblue;
+    
+}
+
 /* header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url("../Assets/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
 
 .banner .profile-pic{
     width: 500px;
+ 
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-des{
+    margin-bottom: 30px;
+}
+.banner-content{
+    max-width: 585px;
 }
